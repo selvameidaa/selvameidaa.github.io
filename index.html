@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Royal Dashboard</h2>
+      <nav>
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Mahasiswa</a></li>
+          <li><a href="#">Kelas</a></li>
+          <li><a href="#">Aktifitas</a></li>
+          <li><a href="#">Statistik</a></li>
+          <li><a href="#">Dokumen</a></li>
+          <li><a href="#">Settings</a></li>
+          <li class="logout"><a href="#">Sign Out</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header>
+        <input type="text" placeholder="Cari Kelas, Dokumen, Aktivitas...">
+      </header>
+
+      <!-- Welcome Section -->
+      <section class="welcome-section">
+        <h1>Selamat Datang, Selva Meida Rambe Kelas SI-3P</h1>
+        <p>
+          Kamu memiliki Statistik, 3 Progres Kelas, 4 Aktivitas Selanjutnya
+          dan 3 Lampiran Dokumen yang ada pada aplikasi ini.
+        </p>
+        <img src="profil.jpg" alt="User Profile">
+      </section>
+
+      <!-- Statistics Section -->
+      <section class="statistics-section">
+        <div class="statistik-mahasiswa">
+          <h3>Statistik Mahasiswa</h3>
+          <div class="chart">
+            <!-- Placeholder chart -->
+            <img src="Chart.svg" alt="Chart">
+          </div>
+        </div>
+        <div class="progres-kelas">
+          <h3>Progres Kelas</h3>
+          <ul>
+            <li>Matakuliah A - 78 Persentase</li>
+            <li>Matakuliah B - 30 Persentase</li>
+            <li>Matakuliah C - 40 Persentase</li>
+            <li>Matakuliah D - 10 Persentase</li>
+          </ul>
+        </div>
+        <div class="aktifitas-selanjutnya">
+          <h3>Aktifitas Selanjutnya</h3>
+          <ul>
+            <li>Perkuliahan Daring 1 - Senin, 15 Januari 2025</li>
+            <li>Perkuliahan Daring 1 - Selasa, 15 Februari 2025</li>
+            <li>Perkuliahan Daring 1 - Rabu, 15 Maret 2025</li>
+            <li>Perkuliahan Daring 1 - Kamis, 15 April 2025</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Documents Section -->
+      <section class="documents-section">
+        <h3>Lampiran</h3>
+        <ul>
+          <li>Lampiran Dokumen 1 - Matakuliah A | <a href="#">Lihat Dokumen</a></li>
+          <li>Lampiran Dokumen 2 - Matakuliah B | <a href="#">Lihat Dokumen</a></li>
+          <li>Lampiran Dokumen 3 - Matakuliah C | <a href="#">Lihat Dokumen</a></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
